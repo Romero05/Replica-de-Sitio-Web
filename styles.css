@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0b0e14;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #000;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.btn-dulceria {
+  background-color: orange;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.ubicacion {
+  color: white;
+}
+
+.banner img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  background-color: #12151c;
+  padding: 1rem;
+}
+
+.tab {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  margin: 0 1rem;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.tab.active {
+  border-bottom: 2px solid orange;
+}
+
+.peliculas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.pelicula img {
+  width: 180px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.pelicula img:hover {
+  transform: scale(1.05);
+}
+
+.peliculas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  margin: 32px 0;
+}
+.pelicula {
+  background: #181a1b;
+  border-radius: 12px;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  transition: transform 0.2s;
+}
+.pelicula img {
+  width: 100%;
+  border-radius: 8px;
+}
+.pelicula h3 {
+  margin: 12px 0 4px 0;
+  font-size: 1.1em;
+}
+.pelicula p {
+  margin: 0;
+  font-size: 0.95em;
+  color: #bfc9d1;
+}
+.pelicula:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.22);
+}
+
+/* Footer styles */
+.footer-cinepolis {
+  background: #181a1b;
+  color: #fff;
+  padding: 40px 0 0 0;
+  font-size: 1em;
+}
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+.footer-columns h4 {
+  margin-bottom: 12px;
+  font-size: 1.15em;
+  letter-spacing: 1px;
+}
+.footer-columns ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-columns ul li {
+  margin-bottom: 8px;
+}
+.footer-columns ul li a {
+  color: #bfc9d1;
+  text-decoration: none;
+  font-size: 0.98em;
+}
+.footer-columns ul li a:hover {
+  color: #38f9d7;
+  text-decoration: underline;
+}
+.footer-form {
+  min-width: 220px;
+  border-left: 1px solid #444;
+  padding-left: 24px;
+}
+.footer-form label {
+  display: block;
+  margin-bottom: 4px;
+  color: #bfc9d1;
+  font-size: 0.98em;
+}
+.footer-form input,
+.footer-form textarea {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 7px;
+  border-radius: 6px;
+  border: none;
+  background: #35393b;
+}
